@@ -1,0 +1,19 @@
+{
+    "name": "jasanya/laravel-blog",
+    "description": "Reusable blog system for Laravel projects.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "Jasanya\\BlogSystem\\": "src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Jasanya\\BlogSystem\\BlogServiceProvider"
+        ]
+      }
+    }
+  }
+  
